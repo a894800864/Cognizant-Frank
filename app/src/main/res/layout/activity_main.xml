@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.animationdemo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帧动画"
+        android:id="@+id/zhen"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+    android:layout_centerInParent="true"
+    android:id="@+id/ig"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="渐入"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/but"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="突进"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/but"
+        android:id="@+id/but2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移动"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/but2"
+        android:id="@+id/but1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旋转"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/but1"
+        android:id="@+id/but3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="渐变"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/but3"
+        android:id="@+id/but4"/>
+
+</RelativeLayout>
